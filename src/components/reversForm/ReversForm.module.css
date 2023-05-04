@@ -1,0 +1,121 @@
+.container {
+    height: 100vh;
+    background-color: #647fb1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 768px;
+    padding: 80px 60px 100px;
+    background: #2d4e72;
+    backdrop-filter: blur(4.4px);
+    border: 3px solid #293132;
+    border-radius: 20px;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.75);
+}
+
+.title_3 {
+    text-align: center;
+    font-size: 32px;
+    color: #cfff75;
+}
+
+.data_block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 35px;
+    margin-top: 55px;
+}
+
+input {
+    background: transparent;
+    height: 40px;
+    border: none;
+    border-bottom: 3px solid #293132;
+    padding-left: 20px;
+    font-size: 24px;
+    color: #d0fdff;
+}
+
+input::placeholder {
+    font-size: 24px;
+    color: #8cc3c6;
+}
+
+input:focus::placeholder {
+    color: #d0fdff;
+}
+
+input:focus {
+    outline: none;
+}
+
+.name {
+    width: 100%;
+}
+
+.mail {
+    width: 290px;
+}
+
+.phone {
+    width: 290px;
+}
+
+.text_area {
+    margin-top: 65px;
+    border: 1px solid #fff;
+    border-radius: 13px;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    font-size: 24px;
+    color: #8cc3c6;
+}
+
+textarea {
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: #d0fdff;
+}
+
+textarea:focus::placeholder {
+    color: #d0fdff;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.send {
+    width: 100%;
+    text-align: right;
+}
+
+button {
+    padding: 15px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    background: rgb(38, 134, 134);
+    margin-top: 40px;
+    color: #fff;
+}
+
+button:hover {
+    background: #3a4445;
+}
+
+button:active {
+    transform: translateY(4px);
+}

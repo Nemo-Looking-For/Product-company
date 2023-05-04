@@ -1,0 +1,47 @@
+.header {
+    padding: 40px 0;
+    min-height: 695px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #647fb1;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/img/header-bg.png);
+    background-size: auto;
+    background-position: center;
+    text-align: center;
+    color: #d0fdff;
+}
+
+.header__wrapper {
+    padding: 0 15px;
+    max-width: 660px;
+}
+
+.header__title {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.header__title strong {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.header__title em {
+    font-style: normal;
+    color: #cfff75;
+}
+
+.header__text {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 1.333;
+}
+
+.header__text p+p {
+    margin-top: 0.5em;
+}
